@@ -7,6 +7,7 @@ class AboutObjects < Neo::Koan
     assert_equal true, "string".is_a?(Object)
     assert_equal true, nil.is_a?(Object)
     assert_equal true, Object.is_a?(Object)
+    # yo beckett
   end
 
   def test_objects_can_be_converted_to_strings
